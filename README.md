@@ -46,11 +46,11 @@ How To :
 
 * Se placer dans vendor/jfranclin/migrations :
 
-* État : php vendor/bin/migrations.php status
+* État : php migration status
 
-* Création d'une migration : php vendor/bin/migrations.php generate
+* Création d'une migration : php migration generate
 
-* Lancer les migrations : ' php vendor/bin/migrations.php migrate 
+* Lancer les migrations : ' php migration migrate 
 
-* Annuler une migration : php vendor/bin/migrations.php migrate NUMERO_MIGRATION 
+* Annuler une migration : php migration migrate NUMERO_MIGRATION 
 
