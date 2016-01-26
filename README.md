@@ -44,11 +44,11 @@ sudo nano /etc/rc.local et ajouter avant le exit : /sbin/iptables-restore < /etc
 
 How To :
 
-État : php vendor/bin/migrations.php status
-------
-Création d'une migration : php vendor/bin/migrations.php generate
-------
-Lancer les migrations : ' php vendor/bin/migrations.php migrate 
-------
-Annuler une migration : php vendor/bin/migrations.php migrate NUMERO_MIGRATION 
-------
+* État : php vendor/bin/migrations.php status
+
+* Création d'une migration : php vendor/bin/migrations.php generate
+
+* Lancer les migrations : ' php vendor/bin/migrations.php migrate 
+
+* Annuler une migration : php vendor/bin/migrations.php migrate NUMERO_MIGRATION 
+
