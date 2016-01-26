@@ -10,8 +10,10 @@ PHP 5.5.x | 7.x
 
 Installation : 
 
-* Copier migrations-db.php.old (ne pas supprimer) vers un nouveau fichier migrations-db.php. Configurer ce fichier.
-* Créer un dossier si besoin "migration_files" à la racine du dossier.
+* Copier migrations-db.php.conf (ne pas supprimer) vers un nouveau fichier migrations-db.php. Configurer ce fichier avec les infos projet.
+* Créer un dossier si besoin "migrations" à la racine du projet distant.
+* Copier migrations.yml.conf (ne pas supprimer) vers un nouveau fichier migrations.yml. Configurer ce fichier.
+* Editer le fichier migrations.yml et remplacer la dernière ligne par : migrations_directory: ../../../migrations 
 
 Attention, le driver Pdo MySQL est requis (installer Wamp sous windows, sinon sous linux : sudo apt-get install php5-mysql).
 
