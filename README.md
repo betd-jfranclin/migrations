@@ -1,4 +1,4 @@
-# migrations
+# Migrations
 
 Module de gestion SQL via Doctrine Migrations.
 
@@ -43,6 +43,8 @@ sudo nano /etc/rc.local et ajouter avant le exit : /sbin/iptables-restore < /etc
 ------
 
 How To :
+
+* Se placer dans vendor/jfranclin/migrations :
 
 * État : php vendor/bin/migrations.php status
 
