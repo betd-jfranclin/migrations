@@ -53,4 +53,6 @@ How To :
 * Lancer les migrations : ' php migration migrate 
 
 * Annuler une migration : php migration migrate NUMERO_MIGRATION 
+*  Tester les migrations sans les exectuer : php migration --dry-run 
+*  Générer un fichier SQL :  php migration --write-sql
 
